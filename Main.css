@@ -1,0 +1,172 @@
+@media only screen and (min-width: 811px) {
+    body {
+        background-color: #f4f4f4;
+        font-family: 'CustomFont';
+        margin: 0;
+    
+    }
+    
+    #title {
+        font-size: xx-large;
+    }
+    
+    @font-face {
+        font-family: 'CustomFont';
+        /* Name your font family */
+        src: url(/resources/fonts/thewildbreathofzelda.otf);
+        /* Locate the .ttf file within your directory*/
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    header {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #7b218d;
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        color: white;
+        position: fixed;
+    }
+    
+    #header-triforce-img {
+        display: flex;
+        justify-content: left;
+        align-self: center;
+        width: auto;
+    }
+    
+    
+    #header-text {
+        width: auto;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    nav {
+        white-space: nowrap;
+        display: flex;
+        padding-right: 30px;
+        justify-content: right;
+        text-align: right;
+    }
+    
+    nav>div {
+        flex-direction: row;
+        display: flex;
+        column-gap: 20px;
+    }
+    
+    nav>div>div {
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        font-size: large;
+        transition: 0.1s;
+    }
+    
+    nav>div>div:hover {
+        background-color: #ba4aab;
+    }
+    
+    .MainFlex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        height: auto;
+        width: auto;
+        color: black;
+    }
+    
+    .MainFlex>div {
+        display: flex;
+        width: 63%;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+        font-size: x-large;
+        color: #460e51;
+    }
+    
+    .MainFlex>div>div {
+        padding-left: 1%;
+        width: auto;
+    }
+    
+    .Flex-ception1 {
+        display: flex;
+        height: auto;
+        padding: 0;
+        width: 61.5vw;
+        background-color: #ba4aab;
+        border-radius: 10px;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: #460e51;
+        transition: .3s;
+    }
+    
+    .Flex-ception1:hover {
+        background-color: #460e51;
+        color: white;
+    }
+    
+    .Flex-ception1>h3 {
+        color: white;
+        font-weight: normal;
+    }
+    
+    .Flex-ception2 {
+        display: flex;
+        padding: 0;
+        width: auto;
+        justify-content: space-between;
+        width: 61.5vw;
+    }
+    
+    .Flex-ception2>div {
+        background-color: #ba4aab;
+        width: 23%;
+        display: flex;
+        border-radius: 10px;
+        flex-direction: column;
+        text-align: center;
+        color: #460e51;
+        transition: .3s;
+        align-items: center;
+    }
+    
+    .Flex-ception2>div>img {
+        width: 12vw;
+        height: 15vw;
+        object-fit: cover;
+        border-style: solid;
+        border-width: 3px;
+        border-color: white;
+        border-radius: 10px;
+    }
+    
+    .Flex-ception2>div:hover {
+        background-color: #460e51;
+        color: white;
+    }
+    
+    .Flex-ception2>div>h3 {
+        color: white;
+        font-weight: normal;
+    }
+    
+    footer {
+        font-weight: normal !important;
+        background-color: #ba4aab !important;
+        color: white !important;
+    }
+}    
