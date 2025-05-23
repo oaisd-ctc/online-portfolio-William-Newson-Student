@@ -13,7 +13,7 @@
     @font-face {
         font-family: 'CustomFont';
         /* Name your font family */
-        src: url(/resources/fonts/thewildbreathofzelda.otf);
+        src: url(/workspaces/online-portfolio-William-Newson-Student/Fonts/AgeniaBold-E46Rz.otf);
         /* Locate the .ttf file within your directory*/
     }
     
@@ -36,7 +36,7 @@
         position: fixed;
     }
     
-    #header-triforce-img {
+    #header-img {
         display: flex;
         justify-content: left;
         align-self: center;
@@ -100,7 +100,7 @@
         width: auto;
     }
     
-    .Flex-ception1 {
+    .Horizontal-Object {
         display: flex;
         height: auto;
         padding: 0;
@@ -114,17 +114,17 @@
         transition: .3s;
     }
     
-    .Flex-ception1:hover {
+    .Horizontal-Object:hover {
         background-color: #460e51;
         color: white;
     }
     
-    .Flex-ception1>h3 {
+    .Horizontal-Object>h3 {
         color: white;
         font-weight: normal;
     }
     
-    .Flex-ception2 {
+    .Vertical-Object {
         display: flex;
         padding: 0;
         width: auto;
@@ -132,7 +132,7 @@
         width: 61.5vw;
     }
     
-    .Flex-ception2>div {
+    .Vertical-Object>div {
         background-color: #ba4aab;
         width: 23%;
         display: flex;
@@ -144,7 +144,7 @@
         align-items: center;
     }
     
-    .Flex-ception2>div>img {
+    .Vertical-Object>div>img {
         width: 12vw;
         height: 15vw;
         object-fit: cover;
@@ -154,12 +154,12 @@
         border-radius: 10px;
     }
     
-    .Flex-ception2>div:hover {
+    .Vertical-Object>div:hover {
         background-color: #460e51;
         color: white;
     }
     
-    .Flex-ception2>div>h3 {
+    .Vertical-Object>div>h3 {
         color: white;
         font-weight: normal;
     }
