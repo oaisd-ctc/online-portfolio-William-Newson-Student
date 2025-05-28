@@ -145,7 +145,7 @@
     }
     
     .Vertical-Object>div>img {
-        width: 12vw;
+        width: 11vw;
         height: 15vw;
         object-fit: cover;
         border-style: solid;
