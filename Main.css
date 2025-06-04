@@ -1,172 +1,175 @@
-@media only screen and (min-width: 811px) {
-    body {
-        background-color: #f4f4f4;
-        font-family: 'CustomFont';
-        margin: 0;
-    
-    }
-    
-    #title {
-        font-size: xx-large;
-    }
-    
-    @font-face {
-        font-family: 'CustomFont';
-        /* Name your font family */
-        src: url(/workspaces/online-portfolio-William-Newson-Student/Fonts/AgeniaBold-E46Rz.otf);
-        /* Locate the .ttf file within your directory*/
-    }
-    
-    a {
-        color: white;
-        text-decoration: none;
-    }
-    
-    header {
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #7b218d;
-        height: auto;
-        width: 100%;
-        padding: 10px;
-        color: white;
-        position: fixed;
-    }
-    
-    #header-img {
-        display: flex;
-        justify-content: left;
-        align-self: center;
-        width: auto;
-    }
-    
-    
-    #header-text {
-        width: auto;
-        align-self: center;
-        justify-content: center;
-    }
-    
-    nav {
-        white-space: nowrap;
-        display: flex;
-        padding-right: 30px;
-        justify-content: right;
-        text-align: right;
-    }
-    
-    nav>div {
-        flex-direction: row;
-        display: flex;
-        column-gap: 20px;
-    }
-    
-    nav>div>div {
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-        font-size: large;
-        transition: 0.1s;
-    }
-    
-    nav>div>div:hover {
-        background-color: #ba4aab;
-    }
-    
-    .MainFlex {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: white;
-        height: auto;
-        width: auto;
-        color: black;
-    }
-    
-    .MainFlex>div {
-        display: flex;
-        width: 63%;
-        text-align: left;
-        justify-content: left;
-        align-items: center;
-        font-size: x-large;
-        color: #460e51;
-    }
-    
-    .MainFlex>div>div {
-        padding-left: 1%;
-        width: auto;
-    }
-    
-    .Horizontal-Object {
-        display: flex;
-        height: auto;
-        padding: 0;
-        width: 61.5vw;
-        background-color: #ba4aab;
-        border-radius: 10px;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        color: #460e51;
-        transition: .3s;
-    }
-    
-    .Horizontal-Object:hover {
-        background-color: #460e51;
-        color: white;
-    }
-    
-    .Horizontal-Object>h3 {
-        color: white;
-        font-weight: normal;
-    }
-    
-    .Vertical-Object {
-        display: flex;
-        padding: 0;
-        width: auto;
-        justify-content: space-between;
-        width: 61.5vw;
-    }
-    
-    .Vertical-Object>div {
-        background-color: #ba4aab;
-        width: 23%;
-        display: flex;
-        border-radius: 10px;
-        flex-direction: column;
-        text-align: center;
-        color: #460e51;
-        transition: .3s;
-        align-items: center;
-    }
-    
-    .Vertical-Object>div>img {
-        width: 11vw;
-        height: 15vw;
-        object-fit: cover;
-        border-style: solid;
-        border-width: 3px;
-        border-color: white;
-        border-radius: 10px;
-    }
-    
-    .Vertical-Object>div:hover {
-        background-color: #460e51;
-        color: white;
-    }
-    
-    .Vertical-Object>div>h3 {
-        color: white;
-        font-weight: normal;
-    }
-    
-    footer {
-        font-weight: normal !important;
-        background-color: #ba4aab !important;
-        color: white !important;
-    }
-}    
+body {
+    background-color: #ebebeb;
+    font-family: 'CustomFont';
+    margin: 0;
+
+}
+
+#title {
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    /* Name your font family */
+    src: url(/workspaces/online-portfolio-William-Newson-Student/Fonts/AgeniaBold-E46Rz.otf);
+    /* Locate the .ttf file within your directory*/
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7b218d;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    position: fixed;
+}
+
+#header-img {
+    display: flex;
+    justify-content: left;
+    align-self: center;
+    width: auto;
+}
+
+
+#header-text {
+    width: auto;
+    align-self: center;
+    justify-content: center;
+}
+
+nav {
+    white-space: nowrap;
+    display: flex;
+    padding-right: 30px;
+    justify-content: right;
+    text-align: right;
+}
+
+nav>div {
+    flex-direction: row;
+    display: flex;
+    column-gap: 20px;
+}
+
+nav>div>div {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: large;
+    transition: 0.1s;
+}
+
+nav>div>div:hover {
+    background-color: #ba4aab;
+}
+
+.MainFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    height: auto;
+    width: auto;
+    color: black;
+}
+
+.MainFlex>div {
+    display: flex;
+    width: 63%;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    font-size: x-large;
+    color: #460e51;
+}
+.about-section > div {
+    width: 100%;
+    padding-left: 18.5%;
+    padding-right: 18.5%;
+}
+
+.MainFlex>div>div {
+    padding-left: 1%;
+    width: auto;
+}
+
+.Horizontal-Object {
+    display: flex;
+    height: auto;
+    padding: 0;
+    width: 61.5vw;
+    background-color: #ba4aab;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #460e51;
+    transition: .3s;
+}
+
+.Horizontal-Object:hover {
+    background-color: #460e51;
+    color: white;
+}
+
+.Horizontal-Object>h3 {
+    color: white;
+    font-weight: normal;
+}
+
+.Vertical-Object {
+    display: flex;
+    padding: 0;
+    width: auto;
+    justify-content: space-between;
+    width: 61.5vw;
+}
+
+.Vertical-Object>div {
+    background-color: #ba4aab;
+    width: 23%;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+    color: #460e51;
+    transition: .3s;
+    align-items: center;
+}
+
+.Vertical-Object>div>img {
+    width: 11vw;
+    height: 15vw;
+    object-fit: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.Vertical-Object>div:hover {
+    background-color: #460e51;
+    color: white;
+}
+
+.Vertical-Object>div>h3 {
+    color: white;
+    font-weight: normal;
+}
+
+footer {
+    font-weight: normal !important;
+    background-color: #ba4aab !important;
+    color: white !important;
+}
