@@ -1,8 +1,8 @@
-body {
+body { /* Background */
+
     background-color: #ebebeb;
     font-family: 'CustomFont';
     margin: 0;
-
 }
 
 #title {
@@ -74,7 +74,8 @@ nav>div>div:hover {
     background-color: #ba4aab;
 }
 
-.MainFlex {
+.MainFlex { /* Everything In a section */
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -104,7 +105,8 @@ nav>div>div:hover {
     width: auto;
 }
 
-.Horizontal-Object {
+.Horizontal-Object { /* Horrizontal flex objects */
+
     display: flex;
     height: auto;
     padding: 0;
@@ -128,7 +130,7 @@ nav>div>div:hover {
     font-weight: normal;
 }
 
-.Vertical-Object {
+.Vertical-Object { /* Vertical flex objects */
     display: flex;
     padding: 0;
     width: auto;
@@ -168,7 +170,7 @@ nav>div>div:hover {
     font-weight: normal;
 }
 
-footer {
+footer { /* Copyright */
     font-weight: normal !important;
     background-color: #ba4aab !important;
     color: white !important;
